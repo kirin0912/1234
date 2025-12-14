@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+# 設定所有文字檔案使用 LF 作為行結尾
 * text=auto
+
+# Python 檔案
+*.py text eol=lf
+
+# Markdown 檔案
+*.md text eol=lf
+
+# 設定特定檔案類型
+*.txt text eol=lf
